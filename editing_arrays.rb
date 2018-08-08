@@ -12,6 +12,7 @@ end
 
 def add_colors
   change_rainbow_colors.push[2]=["green", "blue"]
-  change_rainbow_colors=
+  change_rainbow_colors=add_colors
+  return add_colors
 end
 
