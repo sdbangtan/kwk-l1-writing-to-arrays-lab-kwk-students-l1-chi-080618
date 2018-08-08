@@ -10,8 +10,9 @@ def change_rainbow_colors
 end
 
 def add_colors
+  rainbow_colors=["red", "light_red", "light_yellow"]
   rainbow_colors<<("green")
-  rainbow_colors<<("blue") = add_colors
-  return add_colors
+  rainbow_colors<<("blue")
+  return rainbow_color
 end
 
